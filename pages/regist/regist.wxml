@@ -1,0 +1,11 @@
+
+<view class="regist">注册</view>
+<form bindsubmit="formSubmit">
+<label style='width:100%'>用户名:<input  value='{{userValue}}' bindinput='user' placeholder='请输入用户名' class='reg' confirm-type="next"></input></label>
+<label>密码:<input value="{{pwdValue}}" bindinput='pwd'  password='true' placeholder='请输入密码' class="reg" confirm-type="done"></input></label>
+<view>
+<!-- <a bindtap="login">已有账号？前往登录...</a> -->
+<button form-type='submit' type="primary" >确认</button>
+<button type="default" bindtap='back'>取消</button>
+</view>
+</form>

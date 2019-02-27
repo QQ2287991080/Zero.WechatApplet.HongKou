@@ -1,0 +1,63 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/news/news",
+    "pages/xinfang/xinfang",
+    "pages/zc/zc",
+    "pages/jiedai/jiedai",
+    "pages/initial/initial",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#353535",
+    "selectedColor": "#1296db",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "/images/index.png",
+        "selectedIconPath": "images/index_select.png",
+        "text": "主页"
+      },
+      {
+        "selectedIconPath": "images/new_select.png",
+        "pagePath": "pages/news/news",
+        "iconPath": "/images/new.png",
+        "text": "新闻信息"
+      },
+      {
+        "pagePath": "pages/xinfang/xinfang",
+        "iconPath": "/images/xinfang.png",
+        "selectedIconPath": "/images/xinfang_select.png",
+        "text": "信访指南"
+      },
+      {
+        "pagePath": "pages/zc/zc",
+        "iconPath": "/images/zc.png",
+        "selectedIconPath": "images/zc_select.png",
+        "text": "政策法规"
+      },
+      {
+        "pagePath": "pages/jiedai/jiedai",
+        "iconPath": "/images/jiedai.png",
+        "selectedIconPath": "images/jiedai_select.png",
+        "text": "接待预约"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 7000,
+    "downloadFile": 10000
+  },
+  "debug": true,
+  "navigateToMiniProgramAppIdList": [
+    "wxe5f52902cf4de896"
+  ]
+}

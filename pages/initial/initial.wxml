@@ -1,0 +1,13 @@
+<import src="../../wxParse/wxParse.wxml"/>
+
+<view class="news">
+
+<view class="leftTitle"><h1 class="title">{{data.title}}</h1></view>
+<view class='user'>发布人:{{data.userName}}</view>
+<view class='user'>发布时间：{{data.creationTime}}</view>
+<!-- <view class="imgView"> -->
+<image class="img" wx:if="{{data.fileUrl!=null}}"  src="{{data.fileUrl}}" ></image>
+<template is="wxParse" data="{{wxParseData:article.nodes}}"/>
+<view class='user'>阅读数：{{data.readNum}}</view>
+<!-- </view> -->
+</view>

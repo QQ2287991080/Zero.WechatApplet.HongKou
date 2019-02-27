@@ -1,0 +1,11 @@
+
+.usermotto{
+  border:1px solid red;
+  height: 100px;
+  width:100px;
+}
+.bbq{
+border: 1px solid black;
+height: 100px;
+width: 200px;
+}

@@ -1,0 +1,18 @@
+<view>
+  <view class="news" wx:for="{{list}}" wx:key="id" bindtap="getById" data-url="{{item.id}}" id="{{item.id}}">
+    <view class="leftTitle">
+      <h1 class="title">{{item.title}}</h1>
+    </view>
+    <!-- <view class="imgView"> -->
+    <image class="img" src="{{item.fileUrl}}" wx:if="{{item.fileUrl!=null}}"></image>
+    <image class="img" src="/images/noImage.jpg" wx:elif="{{item.fileUrl==null}}"></image>
+    <!-- </view> -->
+    <p class="creatTime">{{item.creationTime}}</p>
+  </view>
+  <view>
+
+    <button type='default' class="btn_show" wx:if='{{total !=0&&total>10}}' size='default' loading='{{loading}}' disabled='{{disabled}}' bindtap='setLoading'>{{loadText}}</button>
+    <button type='default' class="btn_hide" wx:elif='{{total <10}}' size='default' loading='{{loading}}' disabled='{{disabled}}' >{{loadText}}</button>
+
+  </view>
+</view>

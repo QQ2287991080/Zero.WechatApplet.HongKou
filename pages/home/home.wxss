@@ -1,0 +1,56 @@
+.content {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+
+.news {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  border-bottom: 1px solid #ccc;
+}
+
+.leftTitle {
+  width: 70%;
+  float: left;
+  padding-top: 10px;
+}
+
+.title {
+  padding-top: 10px;
+}
+
+.imgView {
+  height: auto;
+  width: auto;
+  /* position: relative;
+  top: -20px;
+  left: 0px; */
+  text-align: right;
+}
+
+.img {
+  float: right;
+  width: 30%;
+  padding-top: 10px;
+  height: 80px;
+}
+
+.creatTime {
+  font-size: 14px;
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+}
+.btn_show{
+  display: block;
+}
+.btn_hide{
+  display: none;
+  
+}
+.btn_no{
+  display: bloack
+}

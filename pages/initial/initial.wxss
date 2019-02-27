@@ -1,0 +1,7 @@
+.leftTitle h1{
+  font-size: 18px;
+  font-weight: bold;
+}
+.user{
+  font-size: 12px;
+}
