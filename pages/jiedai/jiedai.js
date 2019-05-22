@@ -43,20 +43,20 @@ Page({
         duration: 2000
       })
     }
-    else if (idCard == "") {
-      wx.showToast({
-        title: '身份证号必须填写',
-        icon: 'none',
-        duration: 2000
-      })
-    }
-    else if (!(/(^\d{15}$)|(^\d{18}$)|(^\d{17}(\d|X|x)$)/.test(idCard))) {
-      wx.showToast({
-        title: '身份证号格式不正确',
-        icon: 'none',
-        duration: 2000
-      })
-    }
+        // else if (idCard == "") {
+        //   wx.showToast({
+        //     title: '身份证号必须填写',
+        //     icon: 'none',
+        //     duration: 2000
+        //   })
+        // }
+    // else if (!(/(^\d{15}$)|(^\d{18}$)|(^\d{17}(\d|X|x)$)/.test(idCard))) {
+    //   wx.showToast({
+    //     title: '身份证号格式不正确',
+    //     icon: 'none',
+    //     duration: 2000
+    //   })
+    // }
     else if (phone == "") {
       wx.showToast({
         title: '联系电话必须填写',
